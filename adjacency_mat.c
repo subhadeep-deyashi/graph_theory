@@ -35,7 +35,7 @@ int main()
 		}
 		fprintf(ft, "\n");
 	}
-	//ft.close();
-	//fp.close();
+	fclose(fp);
+	fclose(ft);
 	return 0;
 }
